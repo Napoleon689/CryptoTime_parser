@@ -28,7 +28,7 @@ CryptoTime - это устройство, основанное на ESP32 c OLED
 
 **Примечание**: не забудьте ввести BOTtoken, если будете изменять код.
 ## Словарь монет ##
-При самостоятельном обновлении словаря монет, используейте код на языке Python, который использует <api.coingecko.com>. Откройте код Crypto_parser_getCoin и установите библиотеку `requests` для выполнения HTTP-запросов. 
+При самостоятельном обновлении словаря монет, используейте код на языке Python, который использует [api.coingecko.com](https://api.coingecko.com/). Откройте код Crypto_parser_getCoin и установите библиотеку `requests` для выполнения HTTP-запросов. 
 Изменятйте переменные per_page и pages_needed, чтобы получить при выводе необходимое колличество монет.
 - per_page - задает количество криптовалют, получаемых на каждой странице
 - pages_needed - задает количество страниц, чтобы получить данные по криптовалютам
@@ -37,4 +37,9 @@ CryptoTime - это устройство, основанное на ESP32 c OLED
 Каждая строка содержит имя криптовалюты (name), URL для получения цены в C++ коде (api_url), и символ (тикер) криптовалюты (symbol).
 Строки объединяются через запятую и выводятся в формате C++ массива.
 ## Дополнение ##
-Для устройства CryytoTime написана [инструкиця](https://telegra.ph/Instrukciya-po-rabote-s-parserom-kriptovalyuty-CryptoTime-08-08) на сервие <telegra.ph>
+Для устройства CryptoTime написана [инструкиця](https://telegra.ph/Instrukciya-po-rabote-s-parserom-kriptovalyuty-CryptoTime-08-08) на сервие [telegra.ph](https://ru.wikipedia.org/wiki/Telegraph_(%D0%B1%D0%BB%D0%BE%D0%B3-%D0%BF%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0)). Рекомендуем к прочтению перед использованием.
+Полная документация по разработке устройства содержится в файле [Техническая документация "CryptoTime"](google.com). Модель корпуса расположена в файле Crypto_parser_body, ссылки на все компоненты представлены ниже: 
+- [Нейлоновая одноголовая шестигранная изолирующая шпилька с гайкой M3x30](https://sl.aliexpress.ru/p?key=zcOtrmn)
+- [M3x5 прозрачные акриловые крестовые винты с круглой головкой](https://sl.aliexpress.ru/p?key=MbOtr3e)
+- [Разъем USB Type-C (мама)](https://sl.aliexpress.ru/p?key=QqOtrTn)
+- [Ideaspark Макетная плата ESP32 с OLED-дисплеем 0,96 дюйма](https://sl.aliexpress.ru/p?key=uJOtrWc)
