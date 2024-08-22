@@ -9,3 +9,6 @@ CryptoTime - это устройство, основанное на ESP32 c OLED
 ## О чем этот проект? ##
 Проект CryptoTime разрабатывался, как настольный парсер криптовалют, управление которого может происходить через сервис Telegram-бота.
 Вы можете изменять проект так, как вам хочется, но в этом случае будет утеряна возмножность использования Telegram-бота <https://t.me/CryptoTimeParser_bot>.
+## Рендер парсера CryptoTime ##
+![Crypto_parser render](https://github.com/user-attachments/assets/58798736-856b-4d7b-82b1-bda8ee1b22d1)
+
