@@ -43,3 +43,5 @@ CryptoTime - это устройство, основанное на ESP32 c OLED
 - [M3x5 прозрачные акриловые крестовые винты с круглой головкой](https://sl.aliexpress.ru/p?key=MbOtr3e)
 - [Разъем USB Type-C (мама)](https://sl.aliexpress.ru/p?key=QqOtrTn)
 - [Ideaspark Макетная плата ESP32 с OLED-дисплеем 0,96 дюйма](https://sl.aliexpress.ru/p?key=uJOtrWc)
+
+Проект был вдохновлен идеей [Биткоин тикера](https://github.com/AndrewBudziszek/bitcoin-ticker-esp32) на основе ESP32.
